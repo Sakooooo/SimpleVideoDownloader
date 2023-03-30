@@ -1,10 +1,5 @@
-import requests
-import argparse
+import arghandler
 
-findargs = argparse.ArgumentParser("[Video Link]")
-findargs.add_argument("link", help="Link to video, could be tiktok or youtube")
-args = findargs.parse_args()
 
 # debug
-# print(args.link)
-
+#print(arghandler.args.link)
